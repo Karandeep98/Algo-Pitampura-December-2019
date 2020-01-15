@@ -24,6 +24,7 @@ int main()
     for(int j=0;j<n;j++){
         cout<<c[i][j];
     }
+    if(i!=n-1)
     cout<<endl;
    }
 
