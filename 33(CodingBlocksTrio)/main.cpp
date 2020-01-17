@@ -36,7 +36,6 @@ int main()
         ocount+=checkVowel('o',a[j]);
         ucount+=checkVowel('u',a[j]);
     }
-
     total[i]=combination(acount,3)+combination(ecount,3)+combination(icount,3)+
    combination(ocount,3)+combination(ucount,3);
 
